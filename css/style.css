@@ -1,0 +1,66 @@
+*{
+    transition-duration: 0.6s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+}
+body{
+    background-color: #C7D2FF
+}
+.body-form,.left-content{
+    opacity: 0.5;
+    width:20%;
+    height: auto;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: #506FE9;
+    border:none;
+    border-radius: 20px 5px;
+    text-align:center;
+    min-height: 40px;
+    margin-top: 0;
+}
+.body-form:hover{
+    box-shadow: 15px 15px 20px #7f98ae;
+}
+#names{
+    color:#fafafa;
+    font-size: 70%;  
+}
+.left-content{
+    opacity: 1;
+    width: 30%;
+    background-color: #6983E7;
+}
+#btn-add, #btn-raffle{
+    border:none;
+    margin: 2%;
+    width: 70%;
+    border-radius:10px;
+}
+#addNames{
+    text-align: center;
+    border:2px solid #7155FF;
+    border-radius: 5px;
+}
+input[type=text]{
+    width: 80%;
+}
+input[type=text]:focus {
+    background-color: #B3EBFF;
+    border:2px solid #9B88FF;
+}
+input[type=submit]{
+    padding: 5px;
+    background-color: midnightblue;
+    color:white;
+    border:3px solid blue;
+}
+input[type=submit]:hover {
+    background-color: #3232BF;
+}
+.msg-alert{
+    background-color: #FF3D3D;
+    color:white;
+    border-radius: 10px;
+    padding: 3px;
+}
